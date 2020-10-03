@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: localhost # rabbitMQ host (docker로 띄웠음)
+    port: 5672 # default port
+    username: guest # default username
+    password: guest # default password
+config:
+  app:
+    duration: 10000
